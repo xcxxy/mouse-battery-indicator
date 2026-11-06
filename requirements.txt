@@ -1,0 +1,4 @@
+pystray
+hidapi
+pillow
+winrt-Windows.Devices.Bluetooth
