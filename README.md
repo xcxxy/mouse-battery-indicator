@@ -4,6 +4,7 @@
 ## ✨ 支持说明
 本版本只使用标准蓝牙BAS电池服务读取电量，不再发送任何2.4G HID私有指令
 ✅ 实测设备：迈从 MCHOSE A7 Pro 双模鼠标
+
 > ⚠️ 重要：即使使用2.4G接收器玩游戏，鼠标也必须提前和电脑完成蓝牙配对，依靠蓝牙通道读取电量，全程不干扰2.4G通道，不会修改DPI。
 > ❗ 阉割了BAS蓝牙电池服务的廉价鼠标无法读取。
 
@@ -17,9 +18,3 @@
 Python 3.8+
 ```bash
 pip install -r requirements.txt
-
-pystray
-pillow
-winrt
-
-pythonw mouse_battery_tray.py
